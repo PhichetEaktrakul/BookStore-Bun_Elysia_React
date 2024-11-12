@@ -1,0 +1,59 @@
+.store_box {
+  background-color: #34343d;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0 15px 0;
+  max-width: 500px;
+}
+
+.input-group-text {
+  color: white;
+  background-color: #555563;
+  border-color: #656565;
+}
+
+.form-control {
+  color: white;
+  background-color: transparent;
+  border-color: #656565;
+}
+
+.form-control::placeholder {
+  color: #6b6b6b;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.form-control:disabled {
+  background-color: #2b2b33;
+}
+
+.headline {
+  margin-bottom: 20px;
+}
+
+.btn {
+  --bs-btn-padding-x: 1.5rem;
+}
+
+nav[aria-label="breadcrumb"] ol {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav[aria-label="breadcrumb"] li+li::before {
+  content: "/";
+  padding: 0 8px;
+}
+
+.breadcrumb-last {
+  color: gray;
+}
+
+.spanfix {
+  width: 60px;
+}

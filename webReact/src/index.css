@@ -1,0 +1,13 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "react-toastify/ReactToastify.css";
+
+body {
+  background-color: #242424;
+  color: white;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
