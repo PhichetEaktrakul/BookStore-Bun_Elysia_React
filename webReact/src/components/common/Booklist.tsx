@@ -7,7 +7,7 @@ export default function Booklist({ bookData, deleteBook }: BooklistProps) {
         <>
             <h1>Book Store</h1>
             <div className='store_box'>
-                <h3 className='headline'>รายการหนังสือ</h3>
+                <h4 className='headline'>Booklist</h4>
                 <ul>
                     {bookData ? bookData.map((book) =>
                         <li className='mt-2' key={book.id}>

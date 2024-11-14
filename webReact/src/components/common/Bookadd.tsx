@@ -4,7 +4,7 @@ export default function Bookadd({ select, setSelect, setTitle, setPrice, setCont
     return (
         <>
             <div className='store_box'>
-                <h3 className='headline'>เพิ่ม/เเก้ไข หนังสือ</h3>
+                <h4 className='headline'>Add / Update Book</h4>
                 <div className="form-check form-check-inline">
                     <input className="form-check-input" type="radio" name="inlineRadioOptions"
                         id="inlineRadio1" value="option1" onChange={(e) => setSelect(e.target.value)} checked={select === "option1"}
@@ -38,7 +38,7 @@ export default function Bookadd({ select, setSelect, setTitle, setPrice, setCont
                         <textarea className="form-control" placeholder="book content" onChange={(e) => setContent(e.target.value)}></textarea>
                     </div>
                     <div className="text-center">
-                        <button type='submit' className="btn btn-outline-primary">ยืนยัน</button>
+                        <button type='submit' className="btn btn-outline-primary">Submit</button>
                     </div>
                 </form>
             </div>

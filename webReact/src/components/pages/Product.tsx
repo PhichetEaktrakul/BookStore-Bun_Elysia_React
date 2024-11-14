@@ -28,10 +28,10 @@ export default function Product() {
         <>
             <h1>Book Detail</h1>
             <div className='store_box'>
-                <p>Book Content: {bookdata && bookdata.title}</p>
+                <p>📕 :&ensp;{bookdata && bookdata.title}</p>
                 <p>{bookdata && bookdata.content}</p>
                 <div className='mt-5'>
-                    <Link to="/" type='button' className="btn btn-outline-warning">ย้อนกลับ</Link>
+                    <Link to="/" type='button' className="btn btn-outline-warning">Return</Link>
                 </div>
             </div>
         </>
